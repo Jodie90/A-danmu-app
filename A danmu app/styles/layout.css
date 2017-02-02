@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+#danmu_mask {
+	border: 2px solid red;
+	width: 100%;
+	height: 380px;
+	background: #fff;
+	margin: 15px auto;
+	opacity: 0.5;
+	filter:alpha(opacity=50) z-index:1;
+}
+#danmu_show div {
+	font-size: 22px;
+	line-height: 36px;
+	font-weight: 500;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#send,#clear {
+	margin: 15px auto;
+}
+#send {
+	border-color: orange;
+	color: orange;
+}
+#clear {
+	border-color: #999;
+	color: #999;
+}

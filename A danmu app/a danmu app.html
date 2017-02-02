@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>A danmu app</title>
+	<link rel="stylesheet" href="styles/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+</head>
+<body>
+	<div class="container-fluid">
+				<div id="danmu_mask">
+					<div id="danmu_show">
+						<!-- <div>text message</div> -->
+					</div>
+				</div>		
+				<form>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<input class="form-control" type="text" name="say_txt" id="say_txt" placeholder="说点什么？"/>
+						</div>				
+					</div>
+					<div class="row">
+						<div class="col-md-2 col-md-offset-4">
+							<button class="btn btn-default btn-block" id="send" type="button">发 射</button>
+						</div>
+						<div class="col-md-2">
+							<button class="btn btn-default btn-block" id="clear" type="button">清 屏</button>
+						</div>		
+					</div>
+				</form>
+			</div>	
+	<script src="https://cdn.wilddog.com/sdk/js/2.4.3/wilddog.js"></script>	
+	<script src="scripts/jquery.min.js"></script>	
+	<script src="scripts/global.js"></script>	
+	
+</body>
+</html>
